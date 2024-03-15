@@ -1,0 +1,11 @@
+file_format: "1"
+id: elara
+name: Elara
+type: shield
+url: https://google.com
+requires: [pro_micro]
+features:
+  - keys
+siblings:
+  - elara_left 
+  - elara_right
