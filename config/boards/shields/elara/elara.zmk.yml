@@ -6,6 +6,9 @@ url: https://google.com
 requires: [pro_micro]
 features:
   - keys
+exposes:
+  - pointer
+  - display
 siblings:
   - elara_left 
   - elara_right
