@@ -22,6 +22,13 @@
 		/* zephyr,console = &cdc_acm_uart; */
 	};
 
+	ext-power {
+		compatible = "zmk,ext-power-generic";
+		label = "EXT_POWER";
+		control-gpios = <&gpio0 21 GPIO_ACTIVE_HIGH>;
+		init-delay-ms = <50>;
+	};
+
 };
 
 &gpio0 {
