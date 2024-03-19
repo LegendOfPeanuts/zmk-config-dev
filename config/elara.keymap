@@ -19,53 +19,53 @@
         Base {
             label = "Base";
             bindings = <
-                &kp Q    &kp W    &kp E    &kp R    &kp T    &kp Y
-                &kp A    &kp S    &kp D    &kp F    &kp G    &kp H
-                &kp Z    &kp S    &kp X    &kp C    &kp V    &kp B
+                &kp Q    &kp W    &kp E    &kp R    &kp T    &kp Y    &kp U    &kp I
+                &kp A    &kp S    &kp D    &kp F    &kp G    &kp H    &kp J    &kp K
+                &kp Z    &kp S    &kp X    &kp C    &kp V    &kp B    &kp N    &kp M
             >;
         };
 
         Lower {
             label = "Lower";
             bindings = <
-                &trans    &trans    &trans    &trans    &trans    &trans 
-                &trans    &trans    &trans    &trans    &trans    &trans 
-                &trans    &trans    &trans    &trans    &trans    &trans 
+                &trans    &trans    &trans    &trans    &trans    &trans     &trans    &trans 
+                &trans    &trans    &trans    &trans    &trans    &trans     &trans    &trans 
+                &trans    &trans    &trans    &trans    &trans    &trans     &trans    &trans 
             >;
         };
 
         Raise {
             label = "Raise";
             bindings = <
-                &trans    &trans    &trans    &trans    &trans    &trans 
-                &trans    &trans    &trans    &trans    &trans    &trans 
-                &trans    &trans    &trans    &trans    &trans    &trans 
+                &trans    &trans    &trans    &trans    &trans    &trans     &trans    &trans 
+                &trans    &trans    &trans    &trans    &trans    &trans     &trans    &trans 
+                &trans    &trans    &trans    &trans    &trans    &trans     &trans    &trans 
             >;
         };
 
         Game {
             label = "Game";
             bindings = <
-                &trans    &trans    &trans    &trans    &trans    &trans 
-                &trans    &trans    &trans    &trans    &trans    &trans 
-                &trans    &trans    &trans    &trans    &trans    &trans 
+                &trans    &trans    &trans    &trans    &trans    &trans     &trans    &trans 
+                &trans    &trans    &trans    &trans    &trans    &trans     &trans    &trans 
+                &trans    &trans    &trans    &trans    &trans    &trans     &trans    &trans 
             >;
         };
 
         Game_++ {
             label = "Game ++";
             bindings = <
-                &trans    &trans    &trans    &trans    &trans    &trans 
-                &trans    &trans    &trans    &trans    &trans    &trans 
-                &trans    &trans    &trans    &trans    &trans    &trans 
+                &trans    &trans    &trans    &trans    &trans    &trans     &trans    &trans 
+                &trans    &trans    &trans    &trans    &trans    &trans     &trans    &trans 
+                &trans    &trans    &trans    &trans    &trans    &trans     &trans    &trans 
             >;
         };
 
         Mouse {
             bindings = <
-                &trans    &trans    &trans    &trans    &trans    &trans 
-                &trans    &trans    &trans    &trans    &trans    &trans 
-                &trans    &trans    &trans    &trans    &trans    &trans 
+                &trans    &trans    &trans    &trans    &trans    &trans     &trans    &trans 
+                &trans    &trans    &trans    &trans    &trans    &trans     &trans    &trans 
+                &trans    &trans    &trans    &trans    &trans    &trans     &trans    &trans 
             >;
         };
     };
