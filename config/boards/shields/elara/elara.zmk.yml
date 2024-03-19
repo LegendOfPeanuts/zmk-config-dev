@@ -3,7 +3,6 @@ id: elara
 name: Elara
 type: shield
 url: https://google.com
-requires: [pro_micro]
 features:
   - keys
 exposes:
