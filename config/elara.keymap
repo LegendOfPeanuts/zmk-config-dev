@@ -28,44 +28,44 @@
         Lower {
             label = "Lower";
             bindings = <
-                &kp trans    &kp trans    &kp trans    &kp trans    &kp trans    &kp trans 
-                &kp trans    &kp trans    &kp trans    &kp trans    &kp trans    &kp trans 
-                &kp trans    &kp trans    &kp trans    &kp trans    &kp trans    &kp trans 
+                &trans    &trans    &trans    &trans    &trans    &trans 
+                &trans    &trans    &trans    &trans    &trans    &trans 
+                &trans    &trans    &trans    &trans    &trans    &trans 
             >;
         };
 
         Raise {
             label = "Raise";
             bindings = <
-                &kp trans    &kp trans    &kp trans    &kp trans    &kp trans    &kp trans 
-                &kp trans    &kp trans    &kp trans    &kp trans    &kp trans    &kp trans 
-                &kp trans    &kp trans    &kp trans    &kp trans    &kp trans    &kp trans 
+                &trans    &trans    &trans    &trans    &trans    &trans 
+                &trans    &trans    &trans    &trans    &trans    &trans 
+                &trans    &trans    &trans    &trans    &trans    &trans 
             >;
         };
 
         Game {
             label = "Game";
             bindings = <
-                &kp trans    &kp trans    &kp trans    &kp trans    &kp trans    &kp trans 
-                &kp trans    &kp trans    &kp trans    &kp trans    &kp trans    &kp trans 
-                &kp trans    &kp trans    &kp trans    &kp trans    &kp trans    &kp trans 
+                &trans    &trans    &trans    &trans    &trans    &trans 
+                &trans    &trans    &trans    &trans    &trans    &trans 
+                &trans    &trans    &trans    &trans    &trans    &trans 
             >;
         };
 
         Game_++ {
             label = "Game ++";
             bindings = <
-                &kp trans    &kp trans    &kp trans    &kp trans    &kp trans    &kp trans 
-                &kp trans    &kp trans    &kp trans    &kp trans    &kp trans    &kp trans 
-                &kp trans    &kp trans    &kp trans    &kp trans    &kp trans    &kp trans 
+                &trans    &trans    &trans    &trans    &trans    &trans 
+                &trans    &trans    &trans    &trans    &trans    &trans 
+                &trans    &trans    &trans    &trans    &trans    &trans 
             >;
         };
 
         Mouse {
             bindings = <
-                &kp trans    &kp trans    &kp trans    &kp trans    &kp trans    &kp trans 
-                &kp trans    &kp trans    &kp trans    &kp trans    &kp trans    &kp trans 
-                &kp trans    &kp trans    &kp trans    &kp trans    &kp trans    &kp trans 
+                &trans    &trans    &trans    &trans    &trans    &trans 
+                &trans    &trans    &trans    &trans    &trans    &trans 
+                &trans    &trans    &trans    &trans    &trans    &trans 
             >;
         };
     };
