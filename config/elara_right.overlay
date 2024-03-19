@@ -19,7 +19,8 @@
 };
 
 
-nice_view_spi: &spi1 {
+nice_view_spi: &spi2 {
+    compatible = "nordic,nrf-spim";
     pinctrl-0 = <&spi1_default>;
     pinctrl-1 = <&spi1_sleep>;
     pinctrl-names = "default", "sleep";
