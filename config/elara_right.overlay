@@ -27,7 +27,7 @@ nice_view_spi: &spi1 {
     cs-gpios = <&gpio0 06 GPIO_ACTIVE_HIGH>
             , <&gpio0 19 GPIO_ACTIVE_LOW>;
     
-        trackball: trackball@0 {
+        trackball: trackball@1 {
             status = "okay";
             compatible = "pixart,pmw3610";
             reg = <0>;
