@@ -19,6 +19,17 @@
     };
 };
 
+/ {
+    trackball_listener {
+        compatible = "zmk,input-listener";
+        device = <&trackball>;
+
+        xy-swap;
+        y-invert;
+        x-invert;
+    };
+};
+
 // nice_view_spi: &spi1 {
 //     compatible = "nordic,nrf-spim";
 //     pinctrl-0 = <&spi1_default>;
