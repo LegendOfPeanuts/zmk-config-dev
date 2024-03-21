@@ -17,5 +17,5 @@ include:
     shield: elara_left
     # shield: elara_left nice_view
   - board: elara
-    shield: elara_right 
-    #shield: elara_right nice_view
+    # shield: elara_right 
+    shield: elara_right nice_view
