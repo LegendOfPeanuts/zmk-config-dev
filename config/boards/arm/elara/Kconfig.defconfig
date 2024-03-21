@@ -22,7 +22,7 @@ config ZMK_BLE
 config I2C
 	default y
 
-config ZMK_MAX17048 
+config MAX17048 
 	default y
 
 endif # BOARD_ELARA
