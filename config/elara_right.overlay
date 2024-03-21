@@ -1,11 +1,12 @@
 
-&spi1 {
+nice_view_spi: &spi1 {
     status = "okay";
     compatible = "nordic,nrf-spim";
     pinctrl-0 = <&spi1_default>;
     pinctrl-1 = <&spi1_sleep>;
     pinctrl-names = "default", "sleep";
-    cs-gpios = <&gpio0 19 GPIO_ACTIVE_LOW>;
+    cs-gpios = <&gpio0 06 GPIO_ACTIVE_HIGH>,
+                <&gpio0 19 GPIO_ACTIVE_LOW>;
 
     trackball: trackball@1 {
         status = "okay";
@@ -28,13 +29,4 @@
         y-invert;
         x-invert;
     };
-};
-
-nice_view_spi: &spi2 {
-    compatible = "nordic,nrf-spim";
-    pinctrl-0 = <&spi1_default>;
-    pinctrl-1 = <&spi1_sleep>;
-    pinctrl-names = "default", "sleep";
-    cs-gpios = <&gpio0 06 GPIO_ACTIVE_HIGH>;
-
 };
