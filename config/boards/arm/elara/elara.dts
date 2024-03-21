@@ -90,7 +90,7 @@
 	clock-frequency = <100000>;
 
 	fuelgauge: max17048@36 {
-		compatible = "zmk,maxim-max17048";
+		compatible = "maxim,max17048";
 		label = "BATTERY";
 		reg = <0x36>;
 	};
