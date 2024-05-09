@@ -52,7 +52,7 @@
 			group1 {
 					psels = <NRF_PSEL(TWIM_SDA, 0, 15)>,
 						<NRF_PSEL(TWIM_SCL, 0, 13)>;
-				        bias-pull-up;
+				        // bias-pull-up;
 
 			};
 	};
@@ -62,7 +62,7 @@
 					psels = <NRF_PSEL(TWIM_SDA, 0, 15)>,
 						<NRF_PSEL(TWIM_SCL, 0, 13)>;
 					low-power-enable;
-       					bias-pull-up;
+       					// bias-pull-up;
 			};
 	};
 
