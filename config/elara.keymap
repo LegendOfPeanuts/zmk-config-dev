@@ -10,6 +10,12 @@
 #define HAS_MOUSE_TP
 
 
+#define BASE 0
+#define LOWER 1
+#define MOUSE_KEYS 2
+#define MOUSE_TP 3
+#define MOUSE_TP_SET 4
+
 #ifdef HAS_MOUSE_TP
   #include "include/mouse_tp.dtsi"
 #endif  // HAS_MOUSE_TP
